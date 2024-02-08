@@ -19,27 +19,27 @@ const Navbar = () => {
 
         <li >
           <Link to="/"
-          className={click ? 'nav-link1 active' : 'nav-link1'}>HOME</Link>
+          className='nav-link'>HOME</Link>
         </li>
         <li >
           <Link to="/work"
-          className={click ? 'nav-link2 active' : 'nav-link2'}>WORK</Link>
+          className='nav-link'>WORK</Link>
         </li>
         <li >
           <Link to="/about"
-          className={click ? 'nav-link3 active' : 'nav-link3'}>ABOUT</Link>
+          className='nav-link'>ABOUT</Link>
         </li>
         <li >
           <Link to="/contact"
-          className={click ? 'nav-link4 active' : 'nav-link4'}>CONTACT</Link>
+          className='nav-link'>CONTACT</Link>
         </li>
 
       </ul>
       <div className="hamburger" onClick={handleClick}>
         {click ? (
-          <FaTimes style={{ color: "#fff" }} size={20} />
+          <FaTimes className="nav-trigger" />
         ) : (
-          <FaBars style={{ color: "#fff" }} size={20} />
+          <FaBars className="nav-trigger" />
         )}
       </div>
     </div>

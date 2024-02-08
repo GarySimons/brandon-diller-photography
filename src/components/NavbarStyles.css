@@ -1,7 +1,7 @@
 .header {
   position: fixed;
   width: 100%;
-  height: 5.625rem;
+  height: 3.5rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -44,29 +44,10 @@
   }
 }
 
-.nav-link1,
-.nav-link2,
-.nav-link3,
-.nav-link4 {
+.nav-link {
   font-size: 0.8rem;
   font-weight: 500;
   color: #ffffff;
-}
-
-.nav-link1.active {
-  color: orange;
-}
-
-.nav-link2.active {
-  color: plum;
-}
-
-.nav-link3.active {
-  color: cyan;
-}
-
-.nav-link4.active {
-  color: chartreuse;
 }
 
 @media screen and (max-width: 768px) {
@@ -83,4 +64,9 @@
   .hamburger {
     display: block;
   }
+}
+
+.nav-trigger {
+  font-size: 1.25rem;
+  color: #ffffff;
 }

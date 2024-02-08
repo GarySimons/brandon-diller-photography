@@ -9,13 +9,13 @@ const Footer = () => {
       <div className="footer-container">
         <div className="social">
           <a href="https://twitter.com/?lang=en" target="_blank" rel="noreferrer">
-            <FaTwitter size={15} style={{ color: "#ffffff" }} />
+            <FaTwitter className="social-icon" />
           </a>
           <a href="https://uk.linkedin.com/" target="_blank" rel="noreferrer">
-            <FaLinkedinIn size={17} style={{ color: "#ffffff" }} />
+            <FaLinkedinIn className="social-icon-linkedin" />
           </a>
           <a href="https://en-gb.facebook.com/" target="_blank" rel="noreferrer">
-            <FaFacebookF size={15} style={{ color: "#ffffff" }} />
+            <FaFacebookF className="social-icon" />
           </a>
         </div>
         <div className="copyright">
