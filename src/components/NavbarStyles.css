@@ -44,14 +44,18 @@
   }
 }
 
-.nav-menu a {
+.nav-link {
   font-size: 0.8rem;
   font-weight: 500;
   color: #ffffff;
 }
 
+.nav-link.active {
+  color: orange;
+}
+
 @media screen and (max-width: 1240px) {
-  .nav-menu a {
+  .nav-link {
     font-size: 2rem;
   }
 }

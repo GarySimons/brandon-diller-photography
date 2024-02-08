@@ -14,17 +14,18 @@ const Navbar = () => {
         <h1>BD</h1>
       </Link>
       <ul className={click ? 'nav-menu active' : 'nav-menu'}>
-        <li>
-          <Link to="/">HOME</Link>
+        <li >
+          <Link to="/" onClick={handleClick}
+          className={click ? 'nav-link active' : 'nav-link'}>HOME</Link>
         </li>
         <li>
-          <Link to="/work">WORK</Link>
+          <Link to="/work" className='nav-link'>WORK</Link>
         </li>
         <li>
-          <Link to="/about">ABOUT</Link>
+          <Link to="/about" className='nav-link'>ABOUT</Link>
         </li>
         <li>
-          <Link to="/contact">CONTACT</Link>
+          <Link to="/contact" className='nav-link'>CONTACT</Link>
         </li>
       </ul>
       <div className="hamburger" onClick={handleClick}>
