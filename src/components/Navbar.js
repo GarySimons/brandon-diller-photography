@@ -7,6 +7,8 @@ import "./NavbarStyles.css";
 const Navbar = () => {
   const [click, setClick] = useState(false);
   const handleClick = () => setClick(!click);
+//   const [clicked, navClicked] = useState(false);
+//   const navClick = () => navClicked(!click);
 
   return (
     <div className="header">
@@ -14,19 +16,24 @@ const Navbar = () => {
         <h1>BD</h1>
       </Link>
       <ul className={click ? 'nav-menu active' : 'nav-menu'}>
+
         <li >
-          <Link to="/" onClick={handleClick}
-          className={click ? 'nav-link active' : 'nav-link'}>HOME</Link>
+          <Link to="/"
+          className={click ? 'nav-link1 active' : 'nav-link1'}>HOME</Link>
         </li>
-        <li>
-          <Link to="/work" className='nav-link'>WORK</Link>
+        <li >
+          <Link to="/work"
+          className={click ? 'nav-link2 active' : 'nav-link2'}>WORK</Link>
         </li>
-        <li>
-          <Link to="/about" className='nav-link'>ABOUT</Link>
+        <li >
+          <Link to="/about"
+          className={click ? 'nav-link3 active' : 'nav-link3'}>ABOUT</Link>
         </li>
-        <li>
-          <Link to="/contact" className='nav-link'>CONTACT</Link>
+        <li >
+          <Link to="/contact"
+          className={click ? 'nav-link4 active' : 'nav-link4'}>CONTACT</Link>
         </li>
+
       </ul>
       <div className="hamburger" onClick={handleClick}>
         {click ? (
