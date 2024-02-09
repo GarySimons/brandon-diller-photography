@@ -1,8 +1,8 @@
-import React, { useState } from "react";
-import { Link } from "react-router-dom";
-import { FaBars, FaTimes } from "react-icons/fa";
+import React, { useState } from 'react';
+import { Link } from 'react-router-dom';
+import { FaBars, FaTimes } from 'react-icons/fa';
 
-import "./NavbarStyles.css";
+import './NavbarStyles.css';
 
 const Navbar = () => {
   const [click, setClick] = useState(false);
@@ -11,35 +11,35 @@ const Navbar = () => {
 //   const navClick = () => navClicked(!click);
 
   return (
-    <div className="header">
-      <Link to="/">
+    <div className='header'>
+      <Link to='/'>
         <h1>BD</h1>
       </Link>
       <ul className={click ? 'nav-menu active' : 'nav-menu'}>
 
         <li >
-          <Link to="/"
+          <Link to='/'
           className='nav-link'>HOME</Link>
         </li>
         <li >
-          <Link to="/work"
+          <Link to='/work'
           className='nav-link'>WORK</Link>
         </li>
         <li >
-          <Link to="/about"
+          <Link to='/about'
           className='nav-link'>ABOUT</Link>
         </li>
         <li >
-          <Link to="/contact"
+          <Link to='/contact'
           className='nav-link'>CONTACT</Link>
         </li>
 
       </ul>
-      <div className="hamburger" onClick={handleClick}>
+      <div className='hamburger' onClick={handleClick}>
         {click ? (
-          <FaTimes className="nav-trigger" />
+          <FaTimes className='nav-trigger' />
         ) : (
-          <FaBars className="nav-trigger" />
+          <FaBars className='nav-trigger' />
         )}
       </div>
     </div>
