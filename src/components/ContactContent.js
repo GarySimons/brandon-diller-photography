@@ -7,7 +7,9 @@ import "./ContactContentStyles.css";
 const ContactContent = () => {
   return (
     <div className="contact-container">
-      <div className="content">
+      <div className="contact-page-header">Contact</div>
+      <div className="contact-content">
+        <div className="spacer"></div>
         <div className="contact-image"></div>
         <div className="contact-details">
           <p className="contact-text"><a href="tel:070016567876"></a>+44 &#91;0&#93; 7001 657876</p>

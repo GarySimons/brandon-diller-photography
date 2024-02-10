@@ -1,37 +1,69 @@
 .contact-container {
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  justify-content: flex-start;
   align-items: center;
   height: 100vh;
   width: 100vw;
-  background-color: #717e8f;
+  background-color: #f25a0f;
 }
 
-.content {
-  position: relative;
-  margin: 0;
+.contact-page-header {
+  display: flex;
+  justify-content: flex-start;
+  width: 90vw;
+  max-width: 1400px;
+  font-size: 1.7rem;
+  font-weight: 700;
+  color: #ffffff;
+  margin: 4rem 0 1rem 0;
 }
 
 @media screen and (min-width: 480px) {
-  .content {
-    margin: 0 0 0 9vw;
+  .contact-page-header {
+    margin: 5rem 0 3rem 0;
+  }
+}
+
+.contact-content {
+  position: relative;
+  margin: 0 0 9vw 0;
+  width: 80vw;
+  max-width: 1400px;
+  display: flex;
+}
+
+@media screen and (min-width: 480px) {
+  .contact-content {
+    margin: 0 0 7rem 0;
+  }
+}
+
+.spacer {
+  width: 2rem;
+  height: 10rem;
+}
+
+@media screen and (min-width: 480px) {
+  .spacer {
+    width: 5rem;
+    height: 10rem;
   }
 }
 
 .contact-image {
-  background-image: url("../assets/images/brandon/brandon-contact.jpg");
+  background-image: url("../assets/images/contact/contact.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  height: 80vh;
+  height: 70vh;
   max-height: 1000px;
-  width: 80vw;
-  max-width: 1400px;
+  width: 100%;
 }
 
 .contact-details {
   position: absolute;
-  background: #717e8f;
+  background: #f25a0f;
   color: #ffffff;
   padding: 1rem 1rem 1rem 0;
   bottom: 5%;
@@ -41,7 +73,6 @@
 @media screen and (min-width: 480px) {
   .contact-details {
     bottom: 65%;
-    left: -5rem;
   }
 }
 
