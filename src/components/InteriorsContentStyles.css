@@ -3,7 +3,7 @@
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
-  height: 100vh;
+  height: 100%;
   width: 100vw;
   background-color: #000000;
 }
@@ -22,5 +22,314 @@
 @media screen and (min-width: 480px) {
   .interiors-page-header {
     margin: 5rem 0 3rem 0;
+  }
+}
+
+.interiors-image-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin: 0 0 5rem 0;
+  width: 90vw;
+  max-width: 1400px;
+  height: 100%;
+}
+
+.int-row-one {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+@media screen and (min-width: 480px) {
+  .int-row-one {
+    flex-direction: row;
+  }
+}
+
+.int-image-one {
+  background-image: url("../assets/images/exterior/exterior-1.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  flex: auto;
+  height: 14rem;
+}
+
+@media screen and (min-width: 768px) {
+  .int-image-one {
+    flex: 1;
+    height: 25vh;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .int-image-one {
+    flex: 1;
+    height: 50vh;
+  }
+}
+
+.int-image-two {
+  background-image: url("../assets/images/exterior/exterior-2.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  flex: auto;
+  height: 14rem;
+}
+
+@media screen and (min-width: 768px) {
+  .int-image-two {
+    flex: 1;
+    height: 25vh;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .int-image-two {
+    flex: 1;
+    height: 50vh;
+  }
+}
+
+.int-row-two {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+@media screen and (min-width: 480px) {
+  .int-row-two {
+    flex-direction: row;
+  }
+}
+
+.int-row-two-stack {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  flex: 2;
+}
+
+.int-image-three {
+  background-image: url("../assets/images/exterior/exterior-3.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  flex: auto;
+  height: 14rem;
+}
+
+@media screen and (min-width: 768px) {
+  .int-image-three {
+    flex: 1;
+    height: 25vh;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .int-image-three {
+    flex: 1;
+    height: 50vh;
+  }
+}
+
+.int-image-four {
+  background-image: url("../assets/images/exterior/exterior-4.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  flex: auto;
+  height: 14rem;
+}
+
+@media screen and (min-width: 480px) {
+  .int-image-four {
+    flex: 1;
+    height: auto;
+  }
+}
+
+.int-image-five {
+  background-image: url("../assets/images/exterior/exterior-5.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  flex: auto;
+  height: 14rem;
+}
+
+@media screen and (min-width: 768px) {
+  .int-image-five {
+    flex: 3;
+    height: 40vh;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .int-image-five {
+    flex: 3;
+    height: 80vh;
+  }
+}
+
+.int-row-three {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+}
+
+.int-image-six {
+  background-image: url("../assets/images/exterior/exterior-6.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: auto;
+  width: 100%;
+  height: 14rem;
+}
+
+@media screen and (min-width: 768px) {
+  .int-image-six {
+    height: 45vh;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .int-image-six {
+    height: 85vh;
+  }
+}
+
+.int-row-four {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+@media screen and (min-width: 480px) {
+  .int-row-four {
+    flex-direction: row;
+  }
+}
+
+.int-image-seven {
+  background-image: url("../assets/images/exterior/exterior-7.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 14rem;
+  flex: auto;
+}
+
+@media screen and (min-width: 768px) {
+  .int-image-seven {
+    height: 25vh;
+    flex: 1;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .int-image-seven {
+    height: 50vh;
+    flex: 1;
+  }
+}
+
+.int-image-eight {
+  background-image: url("../assets/images/exterior/exterior-8.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 14rem;
+  flex: auto;
+}
+
+@media screen and (min-width: 768px) {
+  .int-image-eight {
+    height: 25vh;
+    flex: 1;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .int-image-eight {
+    height: 50vh;
+    flex: 1;
+  }
+}
+
+.int-row-five {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+@media screen and (min-width: 480px) {
+  .int-row-five {
+    flex-direction: row;
+  }
+}
+
+.int-row-five-stack {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  flex: 2;
+}
+
+.int-image-nine {
+  background-image: url("../assets/images/exterior/exterior-9.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  flex: auto;
+  height: 14em;
+}
+
+@media screen and (min-width: 768px) {
+  .int-image-nine {
+    flex: 3;
+    height: 40vh;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .int-image-nine {
+    flex: 3;
+    height: 80vh;
+  }
+}
+
+.int-image-ten {
+  background-image: url("../assets/images/exterior/exterior-10.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  flex: auto;
+  height: 14rem;
+}
+
+@media screen and (min-width: 480px) {
+  .int-image-ten {
+    flex: 1;
+    height: auto;
+  }
+}
+
+.int-image-eleven {
+  background-image: url("../assets/images/exterior/exterior-11.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  flex: auto;
+  height: 14rem;
+}
+
+@media screen and (min-width: 480px) {
+  .int-image-eleven {
+    flex: 1;
+    height: auto;
   }
 }
