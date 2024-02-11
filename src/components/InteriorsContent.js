@@ -5,6 +5,7 @@ import './InteriorsContentStyles.css';
 export const InteriorsContent = () => {
   return (
     <div className="interiors-container">
+      <div className="interiors-page-header">Interiors</div>
         
     </div>
   )

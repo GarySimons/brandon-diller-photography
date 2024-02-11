@@ -3,7 +3,146 @@
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
-  height: 100vh;
+  height: 100%;
   width: 100vw;
   background-color: pink;
+}
+
+.exteriors-page-header {
+  display: flex;
+  justify-content: flex-start;
+  width: 90vw;
+  max-width: 1400px;
+  font-size: 1.7rem;
+  font-weight: 700;
+  color: #ffffff;
+  margin: 4rem 0 1rem 0;
+}
+
+@media screen and (min-width: 480px) {
+  .exteriors-page-header {
+    margin: 5rem 0 3rem 0;
+  }
+}
+
+.exteriors-image-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin: 0 0 5rem 0;
+  width: 90vw;
+  max-width: 1400px;
+  height: 100%;
+  background-color: orange;
+}
+
+.ex-row-one {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+}
+
+.ex-image-one {
+  flex: 1;
+  height: 30vh;
+  background-color: yellowgreen;
+}
+
+.ex-image-two {
+  flex: 1;
+  height: 10rem;
+  height: 30vh;
+  background-color: blueviolet;
+}
+
+.ex-row-two {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+}
+
+.ex-row-two-stack {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  flex: 2;
+}
+
+.ex-image-three {
+  flex: 1;
+  height: auto;
+  background-color: blueviolet;
+}
+
+.ex-image-four {
+  flex: 1;
+  height: auto;
+  background-color: green;
+}
+
+.ex-image-five {
+  flex: 3;
+  height: 50vh;
+  background-color: blueviolet;
+}
+
+.ex-row-three {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+}
+
+.ex-image-six {
+  height: 50vh;
+  background-color: rebeccapurple;
+  width: 100%;
+}
+
+.ex-row-four {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+}
+
+.ex-image-seven {
+  height: 30vh;
+  background-color: blueviolet;
+  flex: 1;
+}
+
+.ex-image-eight {
+  height: 30vh;
+  background-color: red;
+  flex: 1;
+}
+
+.ex-row-five {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+}
+
+.ex-row-five-stack {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  flex: 2;
+}
+
+.ex-image-nine {
+  flex: 3;
+  height: 35vh;
+  background-color: blueviolet;
+}
+
+.ex-image-ten {
+  flex: 1;
+  height: auto;
+  background-color: blueviolet;
+}
+
+.ex-image-eleven {
+  flex: 1;
+  height: auto;
+  background-color: green;
 }
