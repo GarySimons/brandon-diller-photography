@@ -22,6 +22,10 @@ const Navbar = () => {
           className='nav-link'>HOME</Link>
         </li>
         <li >
+          <Link to='/about'
+          className='nav-link'>ABOUT</Link>
+        </li>
+        <li >
           <Link to='/exteriors'
           className='nav-link'>EXTERIORS</Link>
         </li>
@@ -30,14 +34,9 @@ const Navbar = () => {
           className='nav-link'>INTERIORS</Link>
         </li>
         <li >
-          <Link to='/about'
-          className='nav-link'>ABOUT</Link>
-        </li>
-        <li >
           <Link to='/contact'
           className='nav-link'>CONTACT</Link>
         </li>
-
       </ul>
       <div className='hamburger' onClick={handleClick}>
         {click ? (

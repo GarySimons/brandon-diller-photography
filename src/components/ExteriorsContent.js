@@ -32,7 +32,6 @@ const ExteriorsContent = () => {
             <div class="ex-image-ten"></div>
             <div class="ex-image-eleven"></div>   
             </div>
-
         </div>
       </div>
     </div>
