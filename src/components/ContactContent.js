@@ -13,7 +13,7 @@ const ContactContent = () => {
         <div className="contact-image"></div>
         <div className="contact-details">
           <p className="contact-text"><a href="tel:070016567876"></a>+44 &#91;0&#93; 7001 657876</p>
-          <p className="contact-text"><a href="mailto:info@brandon-diller.com">info@brandon-diller.com</a></p>
+          <p className="contact-text"><a href="mailto:info@brandon-diller.com">info@brandondiller.com</a></p>
           <div className="social-container">
             <a
               href="https://twitter.com/?lang=en"

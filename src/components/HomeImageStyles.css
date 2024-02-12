@@ -21,7 +21,7 @@
 
 .content-container {
   position: absolute;
-  top: 40%;
+  top: 45%;
   left: 50%;
   transform: translate(-50%, -50%);
   display: flex;
@@ -56,7 +56,7 @@
 
 @media screen and (min-width: 480px) {
   .subhead {
-    font-size: 2.08rem;
+    font-size: 1.99rem;
   }
 }
 

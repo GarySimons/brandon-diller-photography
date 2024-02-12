@@ -24,7 +24,7 @@ const Footer = () => {
             <a href="https://www.garysimons.co.uk/" target="_blank" rel="noreferrer">
               Gary Simons
             </a>{" "}
-            | Copyright &copy;2014{" "}
+            | Copyright &copy;2024{" "}
             <a href="https://www.garysimons.co.uk/" target="_blank" rel="noreferrer">
               Gary Simons
             </a>
