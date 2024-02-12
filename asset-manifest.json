@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/brandon-diller-photography/static/css/main.61a233cb.css",
-    "main.js": "/brandon-diller-photography/static/js/main.15fa50ab.js",
+    "main.css": "/brandon-diller-photography/static/css/main.bf676d18.css",
+    "main.js": "/brandon-diller-photography/static/js/main.c40910ed.js",
     "static/js/592.2aeaeb5f.chunk.js": "/brandon-diller-photography/static/js/592.2aeaeb5f.chunk.js",
     "static/media/interior-3.jpg": "/brandon-diller-photography/static/media/interior-3.a17e1c90ea7dc4d3834f.jpg",
     "static/media/interior-1.jpg": "/brandon-diller-photography/static/media/interior-1.f59adc75a0e873c7537f.jpg",
@@ -29,12 +29,12 @@
     "static/media/exterior-6.jpg": "/brandon-diller-photography/static/media/exterior-6.0e86d6af5bdb62e07c94.jpg",
     "static/media/exterior-9.jpg": "/brandon-diller-photography/static/media/exterior-9.a9c94963c3b40127ec78.jpg",
     "index.html": "/brandon-diller-photography/index.html",
-    "main.61a233cb.css.map": "/brandon-diller-photography/static/css/main.61a233cb.css.map",
-    "main.15fa50ab.js.map": "/brandon-diller-photography/static/js/main.15fa50ab.js.map",
+    "main.bf676d18.css.map": "/brandon-diller-photography/static/css/main.bf676d18.css.map",
+    "main.c40910ed.js.map": "/brandon-diller-photography/static/js/main.c40910ed.js.map",
     "592.2aeaeb5f.chunk.js.map": "/brandon-diller-photography/static/js/592.2aeaeb5f.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.61a233cb.css",
-    "static/js/main.15fa50ab.js"
+    "static/css/main.bf676d18.css",
+    "static/js/main.c40910ed.js"
   ]
 }
