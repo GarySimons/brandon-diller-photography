@@ -8,6 +8,12 @@
   background-color: #717e8f;
 }
 
+@media screen and (min-width: 1024px) {
+  .about-container {
+    height: 100vh;
+  }
+}
+
 .about-page-header {
   display: flex;
   justify-content: flex-start;
