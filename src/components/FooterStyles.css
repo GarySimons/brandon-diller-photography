@@ -28,7 +28,7 @@
 }
 
 .footer-social-icon:hover {
-  opacity: 0.7;
+  opacity: 0.5;
 }
 
 .footer-social-icon-linkedin {
@@ -37,7 +37,7 @@
 }
 
 .footer-social-icon-linkedin:hover {
-  opacity: 0.7;
+  opacity: 0.5;
 }
 
 .copyright {
@@ -55,5 +55,5 @@ a {
 }
 
 a:hover {
-  opacity: 0.7;
+  opacity: 0.5;
 }
