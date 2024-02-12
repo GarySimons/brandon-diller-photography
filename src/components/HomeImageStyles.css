@@ -21,18 +21,19 @@
 }
 
 .intials {
+  font-family: "Stardos Stencil", system-ui;
   font-size: 11rem;
   font-weight: 700;
   letter-spacing: 0.2rem;
   color: #ffffff;
-  margin: 0 0 -2rem 0;
+  margin: 0 0 -3.5rem 1rem;
   padding: 0;
 }
 
 @media screen and (min-width: 480px) {
   .intials {
-    font-size: 30rem;
-    margin: 0 0 -6rem 0;
+    font-size: 28rem;
+    margin: 0 0 -10rem 2rem;
   }
 }
 
@@ -47,7 +48,7 @@
 
 @media screen and (min-width: 480px) {
   .subhead {
-    font-size: 2.2rem;
+    font-size: 2.08rem;
   }
 }
 
