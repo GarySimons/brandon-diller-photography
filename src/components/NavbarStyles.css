@@ -9,6 +9,13 @@
   z-index: 10;
 }
 
+h1 {
+  font-family: "Stardos Stencil", system-ui;
+  color: #ffffff;
+  font-size: 2rem;
+  letter-spacing: 0.1rem;
+}
+
 .nav-menu {
   display: flex;
 }
